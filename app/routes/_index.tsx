@@ -9,6 +9,9 @@ export const meta: MetaFunction = () => {
     },
   ];
 };
+export const loader = () => {
+  return {message: "This is me testing cloudflare pages with remixjs"}
+};
 
 export default function Index() {
   return (

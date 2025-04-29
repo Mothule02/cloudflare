@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -37,6 +38,13 @@ export default function Index() {
           >
             Cloudflare Pages Docs - Remix guide
           </a>
+        </li>
+        <li>
+          <Link
+            to="/"
+          >
+            Cloudflare Pages - Reload Pages
+          </Link>
         </li>
       </ul>
     </div>
